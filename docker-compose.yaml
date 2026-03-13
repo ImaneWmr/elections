@@ -4,7 +4,7 @@
 services:
     neo4j:
         image: neo4j:latest
-        container_name: XXXXX
+        container_name: neo4j_elections
         ports:
             - "7474:7474"
             - "7687:7687"
